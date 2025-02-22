@@ -1,0 +1,660 @@
+{
+  "major_arcana": [
+    {
+      "number": 0,
+      "name_eng": "The Fool",
+      "name_kor": "광대",
+      "keywords_upright": ["순수", "새로운 시작", "모험"],
+      "keywords_reversed": ["무모함", "부주의", "유치함"],
+      "description_upright": "삶에 대한 순수한 열정과 무한한 가능성을 상징합니다.",
+      "description_reversed": "충동적인 행동으로 인한 위험과 계획 부족을 의미합니다."
+    },
+    {
+      "number": 1,
+      "name_eng": "The Magician",
+      "name_kor": "마법사",
+      "keywords_upright": ["의지력", "창조성", "의식적 행동"],
+      "keywords_reversed": ["속임수", "능력 부족", "조작"],
+      "description_upright": "자신의 재능을 적극적으로 발휘하여 원하는 바를 실현할 수 있음을 의미합니다.",
+      "description_reversed": "자신의 능력을 과신하거나, 남을 속이는 상황을 경고합니다."
+    },
+    {
+      "number": 2,
+      "name_eng": "The High Priestess",
+      "name_kor": "여성교황",
+      "keywords_upright": ["직관", "잠재의식", "신비"],
+      "keywords_reversed": ["비밀 폭로", "의심", "내면 혼란"],
+      "description_upright": "감춰진 지혜와 직관적인 통찰력을 상징합니다.",
+      "description_reversed": "내면적 갈등이나 비밀이 드러나 혼란스러울 수 있음을 뜻합니다."
+    },
+    {
+      "number": 3,
+      "name_eng": "The Empress",
+      "name_kor": "여제",
+      "keywords_upright": ["풍요", "모성", "창조성"],
+      "keywords_reversed": ["과잉", "불안정", "질투"],
+      "description_upright": "풍요로운 에너지와 양육, 창조성을 나타냅니다.",
+      "description_reversed": "과보호나 집착으로 인한 불안을 경고합니다."
+    },
+    {
+      "number": 4,
+      "name_eng": "The Emperor",
+      "name_kor": "황제",
+      "keywords_upright": ["권위", "안정", "구조"],
+      "keywords_reversed": ["독재", "무질서", "완고함"],
+      "description_upright": "체계와 안정, 권위를 바탕으로 한 리더십을 상징합니다.",
+      "description_reversed": "권력을 남용하거나 독선적인 태도를 경고합니다."
+    },
+    {
+      "number": 5,
+      "name_eng": "The Hierophant",
+      "name_kor": "교황",
+      "keywords_upright": ["전통", "가르침", "도덕"],
+      "keywords_reversed": ["편협함", "권위에 대한 반발", "비전통적"],
+      "description_upright": "전통적인 방식이나 제도권 안에서의 지식과 가르침을 의미합니다.",
+      "description_reversed": "기존 질서에 대한 거부나 답답함을 나타냅니다."
+    },
+    {
+      "number": 6,
+      "name_eng": "The Lovers",
+      "name_kor": "연인",
+      "keywords_upright": ["사랑", "조화", "선택"],
+      "keywords_reversed": ["갈등", "이별", "부조화"],
+      "description_upright": "깊은 유대와 조화로운 관계, 혹은 중요한 선택을 의미합니다.",
+      "description_reversed": "연인 관계에서의 갈등, 또는 선택의 어려움을 나타냅니다."
+    },
+    {
+      "number": 7,
+      "name_eng": "The Chariot",
+      "name_kor": "전차",
+      "keywords_upright": ["의지", "승리", "전진"],
+      "keywords_reversed": ["좌절", "집착", "방향 상실"],
+      "description_upright": "강한 추진력과 자신감을 통해 목표를 달성할 수 있음을 뜻합니다.",
+      "description_reversed": "목표를 놓치거나 과도한 집착으로 인해 방해받을 수 있음을 의미합니다."
+    },
+    {
+      "number": 8,
+      "name_eng": "Strength",
+      "name_kor": "힘",
+      "keywords_upright": ["용기", "인내", "자기 통제"],
+      "keywords_reversed": ["나약함", "공포", "무기력"],
+      "description_upright": "내면의 용기와 자비로 어려움을 극복하는 힘을 상징합니다.",
+      "description_reversed": "두려움이나 부정적인 감정에 쉽게 휘둘릴 수 있음을 나타냅니다."
+    },
+    {
+      "number": 9,
+      "name_eng": "The Hermit",
+      "name_kor": "은둔자",
+      "keywords_upright": ["고독", "탐구", "내면 성찰"],
+      "keywords_reversed": ["고립", "소외", "우울"],
+      "description_upright": "자기 성찰과 진리를 찾기 위한 고독의 시간을 의미합니다.",
+      "description_reversed": "지나친 고립이나 외로움에 빠질 수 있음을 경고합니다."
+    },
+    {
+      "number": 10,
+      "name_eng": "Wheel of Fortune",
+      "name_kor": "운명의 수레바퀴",
+      "keywords_upright": ["운명", "변화", "순환"],
+      "keywords_reversed": ["불운", "저항", "반복되는 실수"],
+      "description_upright": "인생의 큰 전환점이나 행운, 혹은 자연스러운 흐름을 뜻합니다.",
+      "description_reversed": "불운이나 변화에 대한 저항으로 인한 어려움을 상징합니다."
+    },
+    {
+      "number": 11,
+      "name_eng": "Justice",
+      "name_kor": "정의",
+      "keywords_upright": ["정의", "균형", "책임"],
+      "keywords_reversed": ["불공평", "편견", "부정"],
+      "description_upright": "공정한 판단과 책임감을 통해 균형을 유지함을 상징합니다.",
+      "description_reversed": "편파적이거나 불합리한 상황, 혹은 부정 행위를 경고합니다."
+    },
+    {
+      "number": 12,
+      "name_eng": "The Hanged Man",
+      "name_kor": "매달린 남자",
+      "keywords_upright": ["희생", "관점 전환", "인내"],
+      "keywords_reversed": ["정체", "집착", "고집"],
+      "description_upright": "새로운 시각을 얻기 위해 잠시 멈추거나 희생이 필요한 상황을 의미합니다.",
+      "description_reversed": "변화를 거부하거나 정체된 상태에서 벗어나지 못함을 상징합니다."
+    },
+    {
+      "number": 13,
+      "name_eng": "Death",
+      "name_kor": "죽음",
+      "keywords_upright": ["변화", "끝맺음", "재생"],
+      "keywords_reversed": ["저항", "정체", "악순환"],
+      "description_upright": "한 단계의 끝과 새로운 시작을 알리는 큰 변화의 상징입니다.",
+      "description_reversed": "변화에 대한 두려움이나 끝맺지 못하는 상황을 의미합니다."
+    },
+    {
+      "number": 14,
+      "name_eng": "Temperance",
+      "name_kor": "절제",
+      "keywords_upright": ["조화", "균형", "절충"],
+      "keywords_reversed": ["과음", "극단적", "조화 상실"],
+      "description_upright": "다른 요소 간의 균형을 이루고 조화를 찾는 것을 나타냅니다.",
+      "description_reversed": "극단적인 태도나 과도한 욕심으로 인한 혼란을 경고합니다."
+    },
+    {
+      "number": 15,
+      "name_eng": "The Devil",
+      "name_kor": "악마",
+      "keywords_upright": ["집착", "유혹", "물질적 욕망"],
+      "keywords_reversed": ["해방", "집착 감소", "통제력 회복"],
+      "description_upright": "물질적 욕망이나 중독, 얽매임을 상징합니다.",
+      "description_reversed": "부정적인 집착에서 벗어나거나 자제력을 되찾음을 의미합니다."
+    },
+    {
+      "number": 16,
+      "name_eng": "The Tower",
+      "name_kor": "탑",
+      "keywords_upright": ["파괴", "갑작스런 변화", "붕괴"],
+      "keywords_reversed": ["저항", "불안정성 지속", "회피"],
+      "description_upright": "예상치 못한 큰 충격이나 변화로 기존 구조가 붕괴되는 것을 상징합니다.",
+      "description_reversed": "변화를 회피하려 해도 결국에는 위험이 커질 수 있음을 경고합니다."
+    },
+    {
+      "number": 17,
+      "name_eng": "The Star",
+      "name_kor": "별",
+      "keywords_upright": ["희망", "영감", "치유"],
+      "keywords_reversed": ["좌절", "자신감 부족", "희망 상실"],
+      "description_upright": "밝은 미래와 영감, 마음의 평화를 상징하며 치유의 에너지를 가집니다.",
+      "description_reversed": "희망을 잃거나 자신의 가능성을 믿지 못하는 상황을 의미합니다."
+    },
+    {
+      "number": 18,
+      "name_eng": "The Moon",
+      "name_kor": "달",
+      "keywords_upright": ["무의식", "환상", "직관"],
+      "keywords_reversed": ["혼돈", "착각", "불안"],
+      "description_upright": "잠재된 감정과 직관적인 통찰, 혹은 불확실성의 세계를 상징합니다.",
+      "description_reversed": "혼동스러운 상황이나 잘못된 상상으로 인해 불안이 커질 수 있음을 뜻합니다."
+    },
+    {
+      "number": 19,
+      "name_eng": "The Sun",
+      "name_kor": "태양",
+      "keywords_upright": ["행복", "성공", "명료함"],
+      "keywords_reversed": ["지나친 자신감", "에너지 부족", "우울"],
+      "description_upright": "밝은 에너지와 긍정적인 성취, 성공을 상징합니다.",
+      "description_reversed": "과도한 자신감으로 인한 방심이나 에너지 소진을 경고합니다."
+    },
+    {
+      "number": 20,
+      "name_eng": "Judgement",
+      "name_kor": "심판",
+      "keywords_upright": ["부활", "평가", "깨달음"],
+      "keywords_reversed": ["자책", "오판", "미련"],
+      "description_upright": "과거를 정리하고 새로운 단계로 넘어가는 각성과 결단을 의미합니다.",
+      "description_reversed": "과거의 실수에 대한 자책이나 옳은 판단을 내리지 못하는 상황을 상징합니다."
+    },
+    {
+      "number": 21,
+      "name_eng": "The World",
+      "name_kor": "세계",
+      "keywords_upright": ["완성", "성취", "통합"],
+      "keywords_reversed": ["미완성", "좌절", "지연"],
+      "description_upright": "여정의 마무리와 완전한 성취, 통합의 에너지를 나타냅니다.",
+      "description_reversed": "마무리를 짓지 못해 좌절하거나 목표 달성이 지연되는 상황을 의미합니다."
+    }
+  ],
+  "minor_arcana": {
+    "wands": [
+      {
+        "name_eng": "Ace of Wands",
+        "name_kor": "완즈 에이스",
+        "keywords_upright": ["열정", "창의력", "새로운 기회"],
+        "keywords_reversed": ["좌절", "무기력", "불안정"],
+        "description_upright": "열정이 솟아오르는 새로운 시작과 창의적인 기회를 의미합니다.",
+        "description_reversed": "의욕 저하나 불확실성으로 인해 시작이 어려울 수 있습니다."
+      },
+      {
+        "name_eng": "Two of Wands",
+        "name_kor": "완즈 2",
+        "keywords_upright": ["계획", "결정", "전망"],
+        "keywords_reversed": ["망설임", "불확실", "소극적 태도"],
+        "description_upright": "미래에 대한 계획을 세우고, 다음 단계로 나아갈 준비를 의미합니다.",
+        "description_reversed": "결정을 내리기 어려운 상황이나 방향성을 잃은 상태를 나타냅니다."
+      },
+      {
+        "name_eng": "Three of Wands",
+        "name_kor": "완즈 3",
+        "keywords_upright": ["확장", "기대", "전망"],
+        "keywords_reversed": ["지연", "좌절", "준비 부족"],
+        "description_upright": "목표를 향해 준비하고 확장해 나가는 긍정적인 미래를 상징합니다.",
+        "description_reversed": "계획이 지연되거나 의욕이 꺾일 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Four of Wands",
+        "name_kor": "완즈 4",
+        "keywords_upright": ["축하", "안정", "기념"],
+        "keywords_reversed": ["불안정", "갈등", "중단된 축하"],
+        "description_upright": "안정된 기반 위에서 즐거운 성취나 축하가 있음을 뜻합니다.",
+        "description_reversed": "행사를 취소하거나 갈등으로 인해 즐거움을 누리지 못할 수 있음을 경고합니다."
+      },
+      {
+        "name_eng": "Five of Wands",
+        "name_kor": "완즈 5",
+        "keywords_upright": ["경쟁", "갈등", "도전"],
+        "keywords_reversed": ["분쟁 해소", "협력 부족", "소모전"],
+        "description_upright": "다양한 의견 충돌이나 경쟁 상황을 통해 성장할 수 있음을 의미합니다.",
+        "description_reversed": "끝나지 않은 갈등이 장기화되거나, 협력 체계가 무너질 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Six of Wands",
+        "name_kor": "완즈 6",
+        "keywords_upright": ["승리", "인정", "성공"],
+        "keywords_reversed": ["실패", "자신감 부족", "과도한 자만"],
+        "description_upright": "노력에 대한 보상과 인정을 받는 시기를 의미합니다.",
+        "description_reversed": "성공을 놓치거나 자만심으로 인해 오히려 평가가 나빠질 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Seven of Wands",
+        "name_kor": "완즈 7",
+        "keywords_upright": ["방어", "도전", "용기"],
+        "keywords_reversed": ["방어 실패", "불리한 위치", "포기"],
+        "description_upright": "자신의 입장을 지키기 위해 끝까지 싸우는 용기를 의미합니다.",
+        "description_reversed": "방어 태세를 유지하기 어렵거나 포기하고 싶어질 수 있음을 상징합니다."
+      },
+      {
+        "name_eng": "Eight of Wands",
+        "name_kor": "완즈 8",
+        "keywords_upright": ["신속", "전진", "소통"],
+        "keywords_reversed": ["지연", "혼선", "과속"],
+        "description_upright": "빠른 진행과 긍정적인 움직임, 순조로운 의사소통을 의미합니다.",
+        "description_reversed": "진행이 더디거나 혼란스러워진 상황을 나타냅니다."
+      },
+      {
+        "name_eng": "Nine of Wands",
+        "name_kor": "완즈 9",
+        "keywords_upright": ["지킴", "인내", "방어"],
+        "keywords_reversed": ["피로", "포기", "부상"],
+        "description_upright": "끝까지 포기하지 않고 목표를 지키려는 태도를 상징합니다.",
+        "description_reversed": "과중한 부담으로 인해 지쳐 있거나 포기하고 싶을 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Ten of Wands",
+        "name_kor": "완즈 10",
+        "keywords_upright": ["과중한 부담", "책임", "노동"],
+        "keywords_reversed": ["짐 덜기", "무책임", "탈진"],
+        "description_upright": "책임감이 커져 무거운 부담을 지고 가는 상황을 나타냅니다.",
+        "description_reversed": "짐을 내려놓거나 책임을 회피하고 싶은 욕구를 상징합니다."
+      },
+      {
+        "name_eng": "Page of Wands",
+        "name_kor": "완즈 페이지",
+        "keywords_upright": ["열정", "아이디어", "탐험"],
+        "keywords_reversed": ["미성숙", "충동적", "변덕"],
+        "description_upright": "새로운 아이디어와 열정을 가진 젊은 에너지를 의미합니다.",
+        "description_reversed": "충동적이거나 계획성이 부족해 방향을 잃을 수 있음을 나타냅니다."
+      },
+      {
+        "name_eng": "Knight of Wands",
+        "name_kor": "완즈 기사",
+        "keywords_upright": ["진취성", "모험심", "직진"],
+        "keywords_reversed": ["무모함", "불안정", "급변"],
+        "description_upright": "모험심 넘치는 에너지와 추진력으로 목표를 향해 달려가는 모습을 상징합니다.",
+        "description_reversed": "충동적인 행동이나 무모함으로 인해 부정적인 결과가 발생할 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Queen of Wands",
+        "name_kor": "완즈 여왕",
+        "keywords_upright": ["자신감", "카리스마", "독립심"],
+        "keywords_reversed": ["질투", "자존감 하락", "조종"],
+        "description_upright": "열정적이며 자기 주도적인 에너지를 통해 주변에 긍정적 영향을 주는 인물을 상징합니다.",
+        "description_reversed": "자신감 부족이나 타인을 조종하려는 태도로 인해 관계에 문제가 생길 수 있습니다."
+      },
+      {
+        "name_eng": "King of Wands",
+        "name_kor": "완즈 왕",
+        "keywords_upright": ["리더십", "창의성", "비전"],
+        "keywords_reversed": ["독단", "오만", "위험감수 부족"],
+        "description_upright": "강력한 리더십과 창의적 비전을 가진 인물을 상징합니다.",
+        "description_reversed": "자기중심적이거나 과도한 자신감으로 인해 문제를 일으킬 수 있습니다."
+      }
+    ],
+    "cups": [
+      {
+        "name_eng": "Ace of Cups",
+        "name_kor": "컵 에이스",
+        "keywords_upright": ["사랑", "감정의 시작", "영감"],
+        "keywords_reversed": ["감정 억압", "불만족", "정서적 장애"],
+        "description_upright": "새로운 사랑이나 감정적 충만을 예고하는 카드입니다.",
+        "description_reversed": "감정을 솔직하게 표현하지 못하거나 감정적으로 막혀 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Two of Cups",
+        "name_kor": "컵 2",
+        "keywords_upright": ["파트너십", "화합", "연결"],
+        "keywords_reversed": ["불화", "이별", "의사소통 문제"],
+        "description_upright": "두 사람 사이의 친밀한 관계나 협력, 조화를 상징합니다.",
+        "description_reversed": "의견 충돌이나 소통 부족으로 인한 갈등을 의미합니다."
+      },
+      {
+        "name_eng": "Three of Cups",
+        "name_kor": "컵 3",
+        "keywords_upright": ["축하", "우정", "즐거움"],
+        "keywords_reversed": ["과도한 파티", "삼각 관계", "진행 지연"],
+        "description_upright": "친구들과의 즐거운 모임이나 성취에 대한 축하를 의미합니다.",
+        "description_reversed": "과도한 사교 생활이나 복잡한 인간관계로 인한 문제를 상징합니다."
+      },
+      {
+        "name_eng": "Four of Cups",
+        "name_kor": "컵 4",
+        "keywords_upright": ["권태", "무관심", "성찰"],
+        "keywords_reversed": ["새로운 기회", "각성", "벗어남"],
+        "description_upright": "감정적으로 지루함을 느끼거나 새로운 제안에 무심한 상태를 의미합니다.",
+        "description_reversed": "무관심에서 벗어나 새로운 가능성을 받아들이려는 움직임을 뜻합니다."
+      },
+      {
+        "name_eng": "Five of Cups",
+        "name_kor": "컵 5",
+        "keywords_upright": ["상실", "후회", "슬픔"],
+        "keywords_reversed": ["희망 회복", "용서", "극복"],
+        "description_upright": "과거의 상처나 상실감으로 인한 슬픔과 후회를 상징합니다.",
+        "description_reversed": "상처를 극복하고 희망을 되찾으며 앞으로 나아가려는 태도를 의미합니다."
+      },
+      {
+        "name_eng": "Six of Cups",
+        "name_kor": "컵 6",
+        "keywords_upright": ["추억", "순수함", "과거"],
+        "keywords_reversed": ["과거 집착", "유치함", "성장 부족"],
+        "description_upright": "과거의 행복한 기억이나 순수한 감정, 혹은 어린 시절을 떠올리는 에너지를 뜻합니다.",
+        "description_reversed": "과거에 집착하여 발전이 더딘 상태나 감정적 미성숙을 의미합니다."
+      },
+      {
+        "name_eng": "Seven of Cups",
+        "name_kor": "컵 7",
+        "keywords_upright": ["환상", "선택", "유혹"],
+        "keywords_reversed": ["결정 장애", "현실 회피", "혼돈"],
+        "description_upright": "다양한 가능성과 욕망이 펼쳐져 있지만 현실적인 선택이 중요함을 상징합니다.",
+        "description_reversed": "선택의 폭이 너무 넓어 결정을 내리지 못하거나 환상에 빠질 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Eight of Cups",
+        "name_kor": "컵 8",
+        "keywords_upright": ["떠남", "단절", "추구"],
+        "keywords_reversed": ["미련", "회피", "결단력 부족"],
+        "description_upright": "더 나은 것을 찾아 미련을 뒤로하고 떠나는 결단을 상징합니다.",
+        "description_reversed": "과거 상황을 완전히 놓지 못하거나 결단력이 부족함을 의미합니다."
+      },
+      {
+        "name_eng": "Nine of Cups",
+        "name_kor": "컵 9",
+        "keywords_upright": ["만족", "소원 성취", "풍요"],
+        "keywords_reversed": ["과도한 자만", "허영심", "충족감 부족"],
+        "description_upright": "감정적 만족감이 크고 바람이 이루어질 수 있는 행복한 상태를 의미합니다.",
+        "description_reversed": "허영심으로 인해 진정한 만족을 놓치거나 과욕을 부릴 수 있음을 상징합니다."
+      },
+      {
+        "name_eng": "Ten of Cups",
+        "name_kor": "컵 10",
+        "keywords_upright": ["가족", "행복", "조화"],
+        "keywords_reversed": ["가정 불화", "허상", "감정적 분열"],
+        "description_upright": "가족이나 가까운 사람들과의 깊은 정서적 만족과 조화를 의미합니다.",
+        "description_reversed": "겉으로는 행복해 보여도 내면적 갈등이 있거나 불화가 있을 수 있음을 나타냅니다."
+      },
+      {
+        "name_eng": "Page of Cups",
+        "name_kor": "컵 페이지",
+        "keywords_upright": ["순수함", "예술적 영감", "직관"],
+        "keywords_reversed": ["감정 기복", "비현실적 기대", "유치함"],
+        "description_upright": "신선하고 순수한 감정이나 예술적 아이디어를 의미합니다.",
+        "description_reversed": "어린아이 같은 감정 기복이나 현실과 동떨어진 기대를 경고합니다."
+      },
+      {
+        "name_eng": "Knight of Cups",
+        "name_kor": "컵 기사",
+        "keywords_upright": ["로맨스", "공감", "상상력"],
+        "keywords_reversed": ["현실 도피", "변덕", "무계획"],
+        "description_upright": "감성적이면서도 예술적이고 로맨틱한 태도를 상징합니다.",
+        "description_reversed": "지나치게 감정에 치우쳐 실질적인 계획이나 실행력이 부족할 수 있습니다."
+      },
+      {
+        "name_eng": "Queen of Cups",
+        "name_kor": "컵 여왕",
+        "keywords_upright": ["공감능력", "감수성", "돌봄"],
+        "keywords_reversed": ["감정 의존", "투정", "내적 불안"],
+        "description_upright": "깊은 감성과 공감능력으로 주변을 돌보는 따뜻한 인물을 상징합니다.",
+        "description_reversed": "감정적으로 불안정하거나 타인에게 지나치게 의존하는 모습을 나타냅니다."
+      },
+      {
+        "name_eng": "King of Cups",
+        "name_kor": "컵 왕",
+        "keywords_upright": ["감정 조절", "현명함", "자비"],
+        "keywords_reversed": ["감정 억압", "냉담", "조종"],
+        "description_upright": "감정을 잘 다스리고 타인을 배려하는 성숙하고 현명한 인물을 의미합니다.",
+        "description_reversed": "감정을 제대로 표현하지 못하거나 타인을 심리적으로 조종하려는 태도를 경고합니다."
+      }
+    ],
+    "swords": [
+      {
+        "name_eng": "Ace of Swords",
+        "name_kor": "소드 에이스",
+        "keywords_upright": ["지적 명확성", "결단력", "진실"],
+        "keywords_reversed": ["혼란", "불확실", "이해 부족"],
+        "description_upright": "날카로운 통찰력과 함께 진실을 꿰뚫는 힘을 상징합니다.",
+        "description_reversed": "명확한 판단을 내리기 어려운 상황이나 혼란스러운 의사소통을 의미합니다."
+      },
+      {
+        "name_eng": "Two of Swords",
+        "name_kor": "소드 2",
+        "keywords_upright": ["갈등", "균형", "결단"],
+        "keywords_reversed": ["우유부단", "회피", "혼란"],
+        "description_upright": "둘 중 하나를 선택해야 하는 갈림길에서의 균형 잡힌 판단을 상징합니다.",
+        "description_reversed": "결정을 회피하거나 혼란스러워 상황이 악화될 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Three of Swords",
+        "name_kor": "소드 3",
+        "keywords_upright": ["배신", "상처", "슬픔"],
+        "keywords_reversed": ["치유", "용서", "회복"],
+        "description_upright": "깊은 마음의 상처나 배신을 의미하며 슬픔을 동반합니다.",
+        "description_reversed": "상처에서 회복하거나 용서와 화해를 통해 치유되는 과정을 나타냅니다."
+      },
+      {
+        "name_eng": "Four of Swords",
+        "name_kor": "소드 4",
+        "keywords_upright": ["휴식", "회복", "명상"],
+        "keywords_reversed": ["지속된 피로", "회복 지연", "외면"],
+        "description_upright": "잠시 멈추고 휴식을 취해 재충전하는 시기를 의미합니다.",
+        "description_reversed": "충분한 휴식을 취하지 못하거나 회복이 더딜 수 있음을 경고합니다."
+      },
+      {
+        "name_eng": "Five of Swords",
+        "name_kor": "소드 5",
+        "keywords_upright": ["갈등 승리", "이기심", "불신"],
+        "keywords_reversed": ["화해 불가", "후회", "불명예"],
+        "description_upright": "싸움에서 이길 수 있지만, 그 과정이 공정하지 않을 수 있음을 의미합니다.",
+        "description_reversed": "승리 이후의 후회나 명예를 잃은 갈등 결과를 상징합니다."
+      },
+      {
+        "name_eng": "Six of Swords",
+        "name_kor": "소드 6",
+        "keywords_upright": ["이동", "회복", "평온"],
+        "keywords_reversed": ["정체", "불안", "탈출 실패"],
+        "description_upright": "어려운 상황에서 벗어나 더 나은 곳으로 이동하는 과정을 의미합니다.",
+        "description_reversed": "탈출하려 해도 상황이 쉽게 개선되지 않거나 불안정함이 지속될 수 있습니다."
+      },
+      {
+        "name_eng": "Seven of Swords",
+        "name_kor": "소드 7",
+        "keywords_upright": ["속임수", "전략", "독립"],
+        "keywords_reversed": ["계획 노출", "양심의 가책", "적발"],
+        "description_upright": "남들을 속이거나 몰래 움직이는 전략적 행동을 상징합니다.",
+        "description_reversed": "비밀이 드러나거나 양심의 가책을 느껴 죄책감에 시달릴 수 있습니다."
+      },
+      {
+        "name_eng": "Eight of Swords",
+        "name_kor": "소드 8",
+        "keywords_upright": ["제약", "두려움", "속박"],
+        "keywords_reversed": ["해방", "용기", "문제 해결"],
+        "description_upright": "자신의 생각이나 외부 상황에 갇혀 행동을 못 하는 상태를 의미합니다.",
+        "description_reversed": "스스로를 구속했던 두려움을 극복하고 상황을 타개해 나가는 태도를 나타냅니다."
+      },
+      {
+        "name_eng": "Nine of Swords",
+        "name_kor": "소드 9",
+        "keywords_upright": ["불안", "걱정", "악몽"],
+        "keywords_reversed": ["안도", "스트레스 해소", "각성"],
+        "description_upright": "극심한 걱정이나 잠 못 이루는 밤, 심리적 불안을 의미합니다.",
+        "description_reversed": "문제의 원인을 파악해 안도감을 찾거나 스트레스를 해소하는 방향으로 나아갑니다."
+      },
+      {
+        "name_eng": "Ten of Swords",
+        "name_kor": "소드 10",
+        "keywords_upright": ["최악", "배신", "끝"],
+        "keywords_reversed": ["회복 시작", "새로운 시작", "교훈"],
+        "description_upright": "더 이상 나빠질 수 없을 정도로 최저점을 찍은 상황을 상징합니다.",
+        "description_reversed": "고난의 끝에서 회복이나 재출발을 알리는 희망을 의미합니다."
+      },
+      {
+        "name_eng": "Page of Swords",
+        "name_kor": "소드 페이지",
+        "keywords_upright": ["호기심", "정보 수집", "분석"],
+        "keywords_reversed": ["가십", "오해", "성급"],
+        "description_upright": "새로운 지식이나 정보에 열정적이며 분석적인 태도를 상징합니다.",
+        "description_reversed": "경솔한 말이나 잘못된 정보로 인해 오해를 불러일으킬 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Knight of Swords",
+        "name_kor": "소드 기사",
+        "keywords_upright": ["결단력", "속도", "지적 추진"],
+        "keywords_reversed": ["무모함", "과격", "날카로운 말"],
+        "description_upright": "지적 능력과 빠른 실행력을 통해 목표를 향해 돌진하는 모습을 상징합니다.",
+        "description_reversed": "과격한 언행이나 무모한 결정으로 인해 스스로를 위기에 빠뜨릴 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Queen of Swords",
+        "name_kor": "소드 여왕",
+        "keywords_upright": ["지혜", "독립", "객관성"],
+        "keywords_reversed": ["냉혹", "고립", "편견"],
+        "description_upright": "이성적이고 독립적인 판단력을 갖춘 강인한 인물을 의미합니다.",
+        "description_reversed": "극단적으로 냉정하거나 편협한 시각으로 인해 인간관계가 단절될 수 있음을 경고합니다."
+      },
+      {
+        "name_eng": "King of Swords",
+        "name_kor": "소드 왕",
+        "keywords_upright": ["지적 권위", "공정함", "분석력"],
+        "keywords_reversed": ["독선", "독재", "오만"],
+        "description_upright": "날카로운 분석력과 판단력으로 공정하게 상황을 주도하는 인물을 상징합니다.",
+        "description_reversed": "지나친 독선이나 권위로 인해 주위의 반감을 살 수 있음을 의미합니다."
+      }
+    ],
+    "pentacles": [
+      {
+        "name_eng": "Ace of Pentacles",
+        "name_kor": "펜타클 에이스",
+        "keywords_upright": ["물질적 기회", "안정", "새로운 시작"],
+        "keywords_reversed": ["놓친 기회", "탐욕", "근시안"],
+        "description_upright": "금전적 또는 현실적 영역에서의 새로운 기회와 번영을 상징합니다.",
+        "description_reversed": "유리한 기회를 놓치거나 지나친 욕심으로 인해 문제가 발생할 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Two of Pentacles",
+        "name_kor": "펜타클 2",
+        "keywords_upright": ["균형", "적응력", "우선순위"],
+        "keywords_reversed": ["혼란", "시간 관리 실패", "부조화"],
+        "description_upright": "다양한 일이나 자원을 조율하며 균형을 유지하는 상황을 나타냅니다.",
+        "description_reversed": "우선순위를 정하지 못하거나 조율이 실패하여 혼란이 일어날 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Three of Pentacles",
+        "name_kor": "펜타클 3",
+        "keywords_upright": ["협업", "숙련", "팀워크"],
+        "keywords_reversed": ["협력 부족", "서툰 기술", "의사소통 문제"],
+        "description_upright": "협업을 통해 목표를 달성하고 전문성을 높이는 과정을 상징합니다.",
+        "description_reversed": "팀워크가 원활하지 않거나 기술 부족으로 어려움이 생길 수 있습니다."
+      },
+      {
+        "name_eng": "Four of Pentacles",
+        "name_kor": "펜타클 4",
+        "keywords_upright": ["안정", "소유욕", "관리"],
+        "keywords_reversed": ["집착", "인색함", "두려움"],
+        "description_upright": "재물이나 자원을 잘 지키고 안정적으로 관리하는 상태를 의미합니다.",
+        "description_reversed": "지나친 집착이나 인색함으로 인해 발전이 정체될 수 있음을 나타냅니다."
+      },
+      {
+        "name_eng": "Five of Pentacles",
+        "name_kor": "펜타클 5",
+        "keywords_upright": ["결핍", "궁핍", "소외"],
+        "keywords_reversed": ["회복", "도움 발견", "희망"],
+        "description_upright": "물질적, 정서적으로 어려운 상황이나 소외감을 겪고 있음을 상징합니다.",
+        "description_reversed": "도움을 받거나 상황이 호전되어 고난에서 벗어날 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Six of Pentacles",
+        "name_kor": "펜타클 6",
+        "keywords_upright": ["나눔", "관대함", "균형적 교환"],
+        "keywords_reversed": ["의존", "불공정", "보상 기대"],
+        "description_upright": "주고받는 에너지가 균형 잡힌 상태로, 나눔과 도움을 주고받는 것을 의미합니다.",
+        "description_reversed": "관계가 일방적이거나 보상을 기대하는 이기적인 태도를 경고합니다."
+      },
+      {
+        "name_eng": "Seven of Pentacles",
+        "name_kor": "펜타클 7",
+        "keywords_upright": ["인내", "점검", "장기적 투자"],
+        "keywords_reversed": ["실망", "성과 부족", "조급함"],
+        "description_upright": "장기적 목표를 위해 꾸준히 투자하며 중간 점검을 하는 과정을 상징합니다.",
+        "description_reversed": "성과가 더디거나 기대에 미치지 못해 실망하거나 서두르는 태도를 나타냅니다."
+      },
+      {
+        "name_eng": "Eight of Pentacles",
+        "name_kor": "펜타클 8",
+        "keywords_upright": ["노력", "숙련", "근면"],
+        "keywords_reversed": ["지루함", "집중력 부족", "실수"],
+        "description_upright": "열심히 노력하여 기술을 연마하고 전문성을 쌓는 단계를 의미합니다.",
+        "description_reversed": "노력은 하지만 집중력이 떨어지거나 실수로 인해 성장이 지연될 수 있음을 나타냅니다."
+      },
+      {
+        "name_eng": "Nine of Pentacles",
+        "name_kor": "펜타클 9",
+        "keywords_upright": ["풍요", "독립", "자급자족"],
+        "keywords_reversed": ["의존", "낭비", "사치"],
+        "description_upright": "물질적 안정과 독립성을 갖춘 풍요로운 상태를 상징합니다.",
+        "description_reversed": "과도한 소비나 사치로 인해 장기적 안정이 위협받을 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Ten of Pentacles",
+        "name_kor": "펜타클 10",
+        "keywords_upright": ["유산", "가족", "오랜 안정"],
+        "keywords_reversed": ["재정 문제", "가족 갈등", "파탄"],
+        "description_upright": "오랜 시간에 걸쳐 축적된 부와 안정, 가문이나 가족의 전통을 의미합니다.",
+        "description_reversed": "재산 분쟁이나 가족 간 갈등으로 인해 안정이 깨질 수 있음을 경고합니다."
+      },
+      {
+        "name_eng": "Page of Pentacles",
+        "name_kor": "펜타클 페이지",
+        "keywords_upright": ["학습", "실용적 아이디어", "성장"],
+        "keywords_reversed": ["게으름", "실리 추구 실패", "집중력 부족"],
+        "description_upright": "새로운 기술이나 지식을 습득하고 현실적 목표를 세우는 단계를 상징합니다.",
+        "description_reversed": "게으르거나 집중력이 부족해 기회를 놓칠 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Knight of Pentacles",
+        "name_kor": "펜타클 기사",
+        "keywords_upright": ["꾸준함", "성실", "현실적"],
+        "keywords_reversed": ["완고함", "지연", "권태"],
+        "description_upright": "꾸준한 노력과 현실적인 태도로 목표를 향해 묵묵히 나아가는 인물을 상징합니다.",
+        "description_reversed": "융통성이 부족해 진척이 느리거나 지루함을 유발할 수 있음을 의미합니다."
+      },
+      {
+        "name_eng": "Queen of Pentacles",
+        "name_kor": "펜타클 여왕",
+        "keywords_upright": ["실용성", "양육", "안정감"],
+        "keywords_reversed": ["과보호", "경제적 의존", "현실 도피"],
+        "description_upright": "물질적, 정서적으로 안정을 추구하며 주변 사람들을 돌보는 인물을 의미합니다.",
+        "description_reversed": "자신이나 타인을 과잉 보호하거나 경제적으로 의존하는 태도를 경고합니다."
+      },
+      {
+        "name_eng": "King of Pentacles",
+        "name_kor": "펜타클 왕",
+        "keywords_upright": ["풍요", "책임감", "현실적 리더십"],
+        "keywords_reversed": ["물질주의", "욕심", "완고함"],
+        "description_upright": "물질적 안정과 사업적 감각, 책임감을 갖춘 리더형 인물을 상징합니다.",
+        "description_reversed": "지나친 물질주의나 욕심으로 인해 주위의 신뢰를 잃을 수 있음을 의미합니다."
+      }
+    ]
+  }
+}
